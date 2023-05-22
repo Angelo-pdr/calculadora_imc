@@ -1,0 +1,55 @@
+
+
+h1 {
+  text-align: center;
+  margin: 1rem 0px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding: 1rem 1.5rem;
+}
+
+.form {
+  flex: 50%;
+}
+
+input {
+  width: 100%;
+  margin: 0.3rem 0px;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.submit{
+  cursor: pointer;
+  width: 50%;
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  border: none;
+  color: white;
+  border-radius: .3rem;
+}
+
+.infor {
+  flex: 40%;
+  text-align: justify;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+.resultado{
+  text-align: center;
+  padding: 1rem;
+  font-size: 2.5rem;
+  color: blue;
+}
